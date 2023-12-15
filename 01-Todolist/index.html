@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 class="titulo">TodoList</h1>
+    <div class="contenedor-formulario">
+        <form class="formulario" id="formulario">
+            <legend>Task</legend>
+            <textarea id="tarea" cols="30"></textarea>
+            <input id="boton-submit" class="boton-submit" type="submit" value="Agregar">
+        </form>
+
+        <div class="contenedor-lista-tareas">
+            <h2>Mis tareas</h2>
+            <div id="lista-tareas" class="lista-tareas">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
